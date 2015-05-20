@@ -1,0 +1,66 @@
+html, body {
+	width: 100%;
+	background: gray;
+}
+
+.top {
+	background: white;
+	height: 175px;
+	margin: 50px;
+}
+
+.textbox {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	overflow: auto;
+	height: 100px;
+	padding: 10px;
+}
+
+.topbuttons {
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.button {
+	width: 25%;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.red {
+	background: red;
+}
+
+.blue {
+	background: blue;
+}
+
+.middle {
+	background: white;
+	height: 350px;
+	margin: 50px;
+}
+
+.imagebox {
+	padding-top: 20px;
+	height: 200px;
+	text-align: center;
+}
+
+footer {
+	background: black;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.footerb {
+	background: black;
+}

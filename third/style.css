@@ -1,0 +1,58 @@
+html, body {
+	width: 100%;
+	background: gray;
+}
+
+header {
+	background: black;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.button {
+	width: 20%;
+	font-size: 20px;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.main {
+	margin-left: 50px;
+	margin-right: 50px;
+	background: white;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.textbox {
+	width: 45%;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	color: black;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.heading {
+	font-size: 30px;
+}
+
+.imagebox {
+	height: 200px;
+	width: 40%;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+footer {
+	background: black;
+	height: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
